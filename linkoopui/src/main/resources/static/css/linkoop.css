@@ -1,0 +1,80 @@
+body{margin:0 auto;background:#f5f5f5;color:#000; min-width:1100px;}
+body,input,fieldset,select,button,textarea{font:14px/1.5 "Lantinghei SC","Open Sans","Hiragino Sans GB","Microsoft YaHei","\5FAE\8F6F\96C5\9ED1",Arial,"STHeiti","WenQuanYi Micro Hei",SimSun,sans-serif;}
+*body{font:14px/1.5 "microsoft yahei","\5FAE\8F6F\96C5\9ED1",arial,simsun,sans-serif;}
+p,ul,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,fieldset,select,button,textarea,iframe{margin:0; padding:0;}
+article,aside,dialog,footer,header,section,footer,nav,figure,figcaption,hgroup{display:block;}
+fieldset,img{border:0 none;vertical-align:top;}
+ul,li{list-style-type:none;}
+i,em,cite{font-style:normal;}
+.clearfix:after{content:".";display:block;height:0;clear: both;visibility:hidden;}
+.clearfix{*zoom:1;}
+a{color:#000;text-decoration:none;}
+a:hover{text-decoration:underline;}
+a,a:hover{outline:none;blur:expression(this.onFocus=this.blur());}
+input,textarea{outline:none;}
+textarea{resize:none;}
+.fl{float:left;display:inline;}
+.fr{float:right;display:inline;}
+.fb{font-weight:bold;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.rela{position:relative;}
+.abso{position:absolute;}
+.blo{display:block;}
+
+header{height:50px;background:#fff;-moz-box-shadow:0 2px 2px rgba(150,150,150,0.5);-webkit-box-shadow:0 2px 2px rgba(150,150,150,0.5);box-shadow:0 2px 2px rgba(150,150,150,0.5); position:relative;z-index:20;}
+header .logo{padding:14px 0 0 18px; line-height:32px;}
+header .user-info{line-height:50px; padding-right:35px;}
+header .user-info span{display:inline-block;margin-left:26px;color:#003c70;}
+header .user-info span a{color:#003c70;}
+header .user-info span i{margin-right:5px; font-size:18px; color:#9c9c9c;}
+
+#container{min-width:1100px;position:absolute;left:0;top:50px;right:0;bottom:0;z-index:10;}
+#left-side{width:80px;position:absolute;left:0;top:0;bottom:0;background:#1f7ed0;overflow:auto;}
+#main{position:absolute;left:80px;top:0;right:0;bottom:0;overflow:auto;}
+
+#left-side nav a{height:72px;padding-top:8px;color:#fff; display:block;}
+#left-side nav a i{height:36px;display:block;font-size:30px;vertical-align:top;}
+#left-side nav a:hover,#left-side nav a.on{background:#003c71;color:#badfff;text-decoration:none;-moz-box-shadow:inset 3px 3px 3px rgba(0,49,100,0.5);-webkit-box-shadow:inset 3px 3px 3px rgba(0,49,100,0.5);box-shadow:inset 3px 3px 3px rgba(0,49,100,0.5);}
+
+.home-container{padding:36px 23px 0;}
+.home-container .panel-row{width:33.33%;float:left;padding-bottom:38px;}
+.home-container .panel{height:152px;margin:0 11px; border:1px solid #e5e5e5;background:#fff;-moz-border-radius:6px;-webkit-border-radius:6px;border-radius:6px;box-shadow:2px 3px 3px rgba(217,217,217,0.5);}
+.home-container .panel h3{height:32px;line-height:32px; border-bottom:1px solid #dcdcdc; background:#cdefff; color:#3e3e3e; font-weight:normal; font-size:16px; margin-bottom:8px;}
+.home-container .panel h3 i{margin:-3px 5px 0 0; font-size:20px; vertical-align:middle; display:inline-block;}
+.home-container .panel table{width:100%;border-collapse:collapse;}
+.home-container .panel table td,.home-container .panel table th{padding:5px 12px; line-height:22px;color:#3e3e3e;}
+.home-container .panel table td a{color:#1f7ed0;}
+.home-container .panel table th{font-weight:normal;}
+.home-container .panel table th i{margin-right:5px; color:#9a9a9a; vertical-align:middle;}
+.home-container .panel-computer table{background:url(../images/panel-line.gif) no-repeat center center;}
+.home-container .panel-computer table td,.home-container .panel-computer table th{padding:5px 16px;}
+.home-container .panel-computer .icon-success{color:#a0d468;}
+.home-container .panel-computer .icon-fail{color:#ff6f6a;}
+.home-container .panel-computer .icon-unknown{color:#efac4e;}
+
+.login-panel{min-width:1100px;padding-top:375px;position:absolute;left:0;top:0;right:0;bottom:45px;z-index:10;background:url(../images/loginBg.jpg) no-repeat center center #0e89db;}
+.login-panel .login-form{width:284px; position:absolute;left:50%;top:50%; margin:20px 0 0 -142px;}
+.login-panel .login-form li{height:32px;line-height:32px;padding-left:10px;margin-bottom:16px;background:#fff;-moz-border-radius:50px;-webkit-border-radius:50px;border-radius:50px;-moz-box-shadow:2px 2px 2px rgba(0,120,180,0.5);-webkit-box-shadow:2px 2px 2px rgba(0,120,180,0.5);box-shadow:2px 2px 2px rgba(0,120,180,0.5); color:#7f7e7f;}
+.login-panel .login-form li label{float:left;}
+.login-panel .login-form li label i{margin:-3px 5px 0 0; font-size:18px;display:inline-block;vertical-align:middle;}
+.login-panel .login-form li input{width:180px;height:32px;background:none;border:0 none;color:#7f7e7f;}
+.login-panel .login-form li.login-password{margin-bottom:0;}
+.login-panel .login-form .login-error{line-height:22px;padding:10px 0; color:#fff;}
+.login-panel .login-btn-bar a,.login-panel .login-btn-bar span{width:142px;line-height:32px;background:#6ad15b;-moz-border-radius:50px;-webkit-border-radius:50px;border-radius:50px; color:#fff;font-size:16px;display:inline-block;}
+.login-panel .login-btn-bar span{background:#d6d6d6; color:#7e7e7e;}
+.login-panel .login-btn-bar a:hover{background:#30d119;text-decoration:none;}
+
+footer{min-width:1100px;height:45px;line-height:45px;background:#155793; position:absolute;left:0;right:0;bottom:0; color:#7dd5ff;}
+
+.container-fluid{position:absolute;left:36px;top:36px;right:36px;bottom:36px;}
+.container-fluid .panel-heading{background:#fff; border-bottom:1px solid #7ecef4;}
+.container-fluid .panel-heading .dataflow-name-panel{width:50%;background:#dcdcdc;padding:9px 12px;}
+.container-fluid .panel-heading .dataflow-name-panel label{color:#2a2a2a; line-height:30px;}
+.container-fluid .panel-heading .dataflow-name{padding:0 8px; margin-left:36px;border:1px solid #b5b5b5;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px; color:#2a2a2a; background:#fff; vertical-align:top;}
+.container-fluid .panel-heading .dataflow-name input{width:100%;height:22px;padding:3px 0; border:0 none; background:none;}
+.container-fluid .panel-heading .btn-group{padding-top:9px;}
+.container-fluid .panel-heading .btn-group .btn{line-height:30px;padding:0 12px 0 10px;margin-left:4px;background:#55b2e7;display:inline-block;color:#fff;-moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;}
+.container-fluid .panel-heading .btn-group .btn i{margin:-3px 5px 0 0;display:inline-block;vertical-align:middle;}
+.container-fluid .panel-heading .btn-group .btn:hover{background:#248dc8;}
